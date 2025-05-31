@@ -1,0 +1,123 @@
+/* Reset default browser styles */
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #eef5f9;
+  color: #333;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+}
+
+/* Navigation bar layout */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+}
+
+/* Logo text */
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Navigation links container */
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
+
+/* Each nav item spacing */
+.navbar li {
+  margin: 0 15px;
+}
+
+/* Nav links appearance */
+.navbar a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+/* Hover effect */
+.navbar a:hover {
+  color: #1abc9c;
+}
+
+/* Hero section background image and styling */
+#hero {
+  background: url('julius.jpg') center/cover no-repeat;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+/* Hero section heading */
+#hero h2 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+/* General section styles */
+section {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* Section heading */
+section h2 {
+  margin-bottom: 20px;
+  font-size: 30px;
+  border-bottom: 2px solid #1abc9c;
+  display: inline-block;
+}
+
+/* Skills list layout */
+#skills ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+/* Each skill badge */
+#skills li {
+  background-color: #1abc9c;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+/* Project card styling */
+.project {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: white;
+  border-left: 5px solid #1abc9c;
+}
+
+/* Footer styling */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+
+
+
